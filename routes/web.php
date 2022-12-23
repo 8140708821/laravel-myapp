@@ -22,6 +22,9 @@ Route::get('/', function () {
 });
 
 Route::get('/wizard-form', WizardForm::class)->name('wizard.form');
+
+
+
 Route::get('/file-upload', FileUpload::class)->name('file.upload');
 Route::get('/chat-module', ChatModule::class)->name('chat-module');
 
