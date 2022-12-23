@@ -15,6 +15,7 @@ class AjaxController extends Controller
      */
     public function renderBlade(Request $request)
     {
+
         if($request->count){
             return response(['message' => 'Success','data' => view('ajax', ['count' => $request->count])->render()], 200);
         }
