@@ -11,6 +11,7 @@ class AjaxController extends Controller
      *
      * @param Request $request
      * @return void
+     *
      */
     public function renderBlade(Request $request)
     {
